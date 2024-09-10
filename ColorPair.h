@@ -1,4 +1,5 @@
 #include <string>
+#include <list>
 #include "ColorCoder.h"
 
 namespace TelCoColorCoder
@@ -17,4 +18,6 @@ namespace TelCoColorCoder
     ColorPair GetColorFromPairNumber(int pairNumber);
 
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
+	
+	    list<ColorPair> PrintColorList();
 }
