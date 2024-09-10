@@ -1,6 +1,7 @@
 #include <string>
 #include <list>
 #include "ColorCoder.h"
+using namespace std;
 
 namespace TelCoColorCoder
 {
@@ -19,5 +20,5 @@ namespace TelCoColorCoder
 
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 	
-	    list<ColorPair> PrintColorList();
+	list<ColorPair> PrintColorList();
 }
